@@ -8,8 +8,7 @@
 
 import Foundation
 
-///******  from func1
-reg()
+
 
 //*********結構  struct
 
@@ -224,9 +223,34 @@ default:
 }
 
 ////不用列舉的方法
-//let dirUp = 1
-//let dirDown = 2
+let dirUp = 1
+let dirDown = 2
+let dirRight = 3
+let dirLeft = 4
 
+var mydir = 1
+
+switch mydir {
+case 1 :
+    print("up")
+default :
+    print("no dir")
+}
+
+
+print("=======")
+
+
+///******  from func1
+//reg()
+
+print("=======")
+
+
+
+////***** from myfunc2
+
+myfunc2()
 
 
 
