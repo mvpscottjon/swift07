@@ -226,8 +226,8 @@ default:
 ////不用列舉的方法
 //let dirUp = 1
 //let dirDown = 2
-//
-//
-//
-//
+
+
+
+
 ////****class 類別
