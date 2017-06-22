@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DC677575A06D6D01521B61A05451016CF37F162A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DA27B9DBBA386A6B8F57ED6052830AFB3497315B" : 9223372036854775807,
+    "DC677575A06D6D01521B61A05451016CF37F162A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "37984237-AAB0-4DAE-BE02-C403C84CBCDF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DA27B9DBBA386A6B8F57ED6052830AFB3497315B" : "",
+    "DC677575A06D6D01521B61A05451016CF37F162A" : "sevenS07\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "sevenS07",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "sevenS07.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mvpscottjon\/swift10.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA27B9DBBA386A6B8F57ED6052830AFB3497315B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mvpscottjon\/SevenSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC677575A06D6D01521B61A05451016CF37F162A"
+    }
+  ]
+}
