@@ -70,60 +70,73 @@ func  myfunc2() {
     }
 
     
+}
     
-    
-//
+
+func ten(){
+
 //    func f10(){
 //        print("f10")
 //        
 //    }
-//    
-//    func f10(a:Int){    //overload  函數名稱一樣  傳入參數不一樣
-//        
-//    }
-//    
-////    func f10() -> Int {   //傳回值不同
-////        return 1
-////    }
-////    
-////    
-////    func f10() -> Bool {   //傳回值不同
-////        return true
-////    }
-//    
-//    
-//    func f10(a:Int, b:Bool) {   //傳回值不同
-//        
+    
+    func f10(a:Int){    //overload  函數名稱一樣  傳入參數不一樣
+        print(a)
+    }
+    
+   
+//不能跟f10() 無傳參數共存，會認不出來
+//    func f10() -> Int {   //傳回值不同
+//        return 1
 //    }
 //    
 //    
-//    f10(a:3)
+//   var a = f10()
+//    print(a)
+    
+    
+    
+    func f10() -> Bool {   //傳回值不同
+        return true
+    }
+    
+    
+    func f10(a:Int, b:Bool) {   //傳回值不同
+        
+    }
+
+    
+    f10(a:3)
+  var b =  f10(a:4, b:false)
+   print(b)
+    
+//
 //    
-//    
-//    func f11() {
-//        
-//        print("f3")
-//    }
-//    
-//    
-//    func f11(by:(Int,Int) -> Bool){
-//        print("f3:bool")
-//    }
-//    
-//    f11()
-//    
-//    f11(by: {(a,b) -> Bool in a < b})
-//    
-//    f11(){(a,b) ->Bool in
-//        print("ok")
-//        return a < b
-//    }
-//    
-//    print("----")
-//    
-//    
-//    
-//    
+    func f11() {
+        
+        print("f3")
+    }
+    
+    //by???
+    func f11(by:(Int,Int) -> Bool){
+        print("f3:bool")
+    }
+
+    f11()
+    
+///???? 指的是在什麼時候媽？？？？
+    f11(by: {(a,b) -> Bool in a < b})
+////?????  建構式再增加東西媽？？
+    f11(){(a,b) ->Bool in
+        print("ok")
+        return a < b
+    }
+
+    print("----")
+    
+    
+    
+/////*******身分證字號產生器  待做
 ////    func createTWId() ->String {
 ////        return createTWId(gender: false)
 ////    }

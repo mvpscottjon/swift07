@@ -250,7 +250,8 @@ print("=======")
 
 ////***** from myfunc2
 
-myfunc2()
+//myfunc2()
+ten()
 
 
 
